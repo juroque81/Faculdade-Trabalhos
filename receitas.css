@@ -1,0 +1,41 @@
+.receitas-container {
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.ingredientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    max-width: 100%;
+    line-height: 1.2;
+}
+
+.preparo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    max-width: 100%;
+    line-height: 1.2;
+}
+
+.receitas-img {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.coluna {
+    flex: 1 1 30%;
+    max-width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
